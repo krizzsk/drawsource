@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.saygames.saypromo.widget.SayPromoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/sp_container_frame_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.saygames.saypromo.widget.SayPromoVideoView android:layout_gravity="center" android:id="@+id/sp_video_player_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.saygames.saypromo.widget.SayPromoWebView android:id="@+id/sp_web_player_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/sp_progress_view" android:background="@color/sp_green" android:visibility="gone" android:layout_width="0dp" android:layout_height="6dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/sp_close_linear_layout" android:background="@drawable/sp_bg_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginStart="9dp" android:layout_marginEnd="9dp">
+        <Space android:id="@+id/sp_close_space" android:layout_width="34dp" android:layout_height="34dp"/>
+        <TextView android:textSize="20sp" android:textColor="@color/sp_gray_80" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/sp_close_text_view" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/sp_close_image_view" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/sp_img_close" android:contentDescription="@null"/>
+    <ImageView android:id="@+id/sp_logo_image_view" android:paddingLeft="12dp" android:paddingTop="16dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="76dp" android:layout_height="56dp" android:src="@drawable/sp_img_say" android:contentDescription="@null"/>
+</com.saygames.saypromo.widget.SayPromoFrameLayout>

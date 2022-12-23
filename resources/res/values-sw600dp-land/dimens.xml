@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sk_consent_new_width_max">452dp</dimen>
+    <dimen name="sk_consent_old_width_max">542dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@21.1.0 */
+public final class zzfee implements zzgqu {
+    public static zzfee zza() {
+        return zzfed.zza;
+    }
+
+    public final /* synthetic */ Object zzb() {
+        return new zzfec();
+    }
+}

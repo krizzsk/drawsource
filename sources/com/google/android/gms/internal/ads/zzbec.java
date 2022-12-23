@@ -1,0 +1,13 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@21.1.0 */
+final class zzbec implements zzgku {
+    static final zzgku zza = new zzbec();
+
+    private zzbec() {
+    }
+
+    public final boolean zza(int i) {
+        return i == 0 || i == 1;
+    }
+}
